@@ -1,0 +1,94 @@
+version: "3.0"
+
+stories:
+
+
+- story: saludar
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_temario
+
+- story: saludar2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_did_that_help
+  - intent: deny
+  
+
+- story: despedirse
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: preguntar_temario
+  steps:
+  - intent: temario
+  - action: utter_temario
+
+- story: preguntar_definicion
+  steps:
+  - intent: definicion
+  - action: utter_definicion
+
+
+- story: preguntar_horas
+  steps:
+  - intent: horas
+  - action: utter_horas
+
+
+- story: preguntar_ov
+  steps:
+  - intent: empresa
+  - action: utter_ov
+
+
+- story: preguntar_requisitos
+  steps:
+  - intent: requisitos
+  - action: utter_requisitos
+
+- story: preguntar_informes
+  steps:
+  - intent: informes
+  - action: utter_informes
+
+- story: preguntar_calificacion
+  steps:
+  - intent: calificacion
+  - action: utter_calificacion
+
+- story: preguntar_beca
+  steps:
+  - intent: beca
+  - action: utter_beca
+
+- story: preguntar_proceso
+  steps:
+  - intent: proceso
+  - action: utter_proceso
+
+- story: preguntar_expediente
+  steps:
+  - intent: expediente
+  - action: utter_expediente
+
+- story: preguntar_trabajo
+  steps:
+  - intent: trabajo
+  - action: utter_trabajo
+
+- story: preguntar_oportunidades
+  steps:
+  - intent: oportunidades
+  - action: utter_oportunidades
+
+- story: preguntar_reportes
+  steps:
+  - intent: reportes
+  - action: utter_reportes
+  - action: utter_informes

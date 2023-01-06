@@ -1,0 +1,174 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - help
+  - definicion
+  - horas
+  - ov
+  - requisitos
+  - informes
+  - calificacion
+  - beca
+  - proceso
+  - expediente
+  - trabajo
+  - oportunidades
+  - reportes
+  - temario
+
+responses:
+  utter_greet:
+  - text: "Hola, ¿Cómo estás?"
+  - text: "Hola"
+  - text: "Mucho gusto en saludarte"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿Necesitas ayuda?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Adiós"
+  - text: "ten un buen día"
+
+  utter_iamabot:
+  - text: "Soy un bot, patrocinado por la FEI, Xalapa, UV."
+
+  utter_definicion:
+  - text: |
+      Art. 74. El servicio social es la actividad formativa y de 
+      aplicación de saberes que, de manera individual o grupal, temporal y 
+      obligatoria, realizan los alumnos, pasantes o egresados de los niveles 
+      técnicos y de estudios profesionales en beneficio de la sociedad y de la 
+      propia institución.
+
+  utter_horas:
+  - text: |
+      Art. 75. La duración del servicio social no puede ser menor a 
+      seis meses ni mayor a un año, ni cubrir un tiempo menor de 480 horas, 
+      pudiendo realizarse en uno o dos periodos escolares continuos.
+  
+  utter_ov:
+  - text: |
+      Art. 75. Puede prestarse en la propia institución o en los 
+      sectores público, social y privado del estado de Veracruz
+
+  
+  utter_informes:
+  - text: |
+      - Dr. Ángel Juan Sánchez García
+      - angesanchez@uv.mx
+      - Coordinador de Servicio Social y Prácticas profesionales de la LIS
+ 
+
+  utter_requisitos:
+  - text: |
+      - Art. 77.
+        - Cumplir como mínimo con el 70% de los créditos del programa 
+        educativo.
+        - Realizar la inscripción en la experiencia educativa de acuerdo con 
+        la oferta académica de su entidad, en las fechas que se ofrezcan.
+
+
+  utter_calificacion:
+  - text: |
+      La calificación de Servicio Social en la LIS Xalapa, 
+      será compuesta por al entrega oportuna de documentos iniciales 
+      (carta de aceptación, plan de actividades, oficio firmado), 
+      reportes mensuales y documentos finales (carta de liberación, evaluación 
+      de competencias y memoria).
+
+  utter_beca:
+  - text: |
+      Art. 77. El alumno inscrito en la experiencia educativa y 
+      beneficiado con una beca debe cumplir con los requisitos de la institución 
+      que le otorgue dicho apoyo para la realización de su servicio social.
+
+  utter_proceso:
+  - text: |
+      - Las dependencias solicitan prestadores de SS mediante oficio, 
+      especificando las actividades a realizar y el responsable del proyecto.
+      - La Coordinación de SS recibe solicitudes y da a conocer la lista de 
+      proyectos.
+      - Los alumnos seleccionan las opciones de interés y lo comunican a la 
+      Coordinación de SS.
+      - La Coordinación de SS evalúa las solicitudes y por prioridad lleva a cabo
+      la asignación de los alumnos.
+      - La Coordinación de SS emite oficios de presentación.
+      - El alumno se presenta en la dependencia ante el titular de SS con el 
+      oficio de asignación.
+      - La dependencia emite un oficio de aceptación, mismo que presentan al
+       coordinador de SS, para conformar un expediente.
+      - El alumno junto con el responsable de SS, llenan el formato de plan de 
+      trabajo.
+      - Los alumnos mensualmente reportan actividades al coordinador de SS y 
+      una memoria al término del SS.
+      - La dependencia emite una carta de liberación de SS, indicando un mínimo 
+      de 480 hrs. laboradas.
+
+  utter_expediente:
+  - text: |
+      - Los documentos contenidos en el expediente de servicio social, serán:
+        - Oficio de aceptación.
+        - Formato de registro y programa de actividades.
+        - Carta de asignación.
+        - De seis a doce reportes mensuales.
+        - Una memoria.
+        - Carta de liberación por parte de la dependencia.
+        - Reporte de visitas.   
+
+  utter_trabajo:
+  - text: |
+      Art. 75. La prestación del servicio social no generará relaciones 
+      de carácter laboral entre quien lo presta y quien lo recibe.
+  
+  utter_oportunidades:
+  - text: |
+      - Art. 77.
+        - En el caso de no acreditarla en el proceso de evaluación señalado 
+        en el programa de la experiencia educativa en primera inscripción, 
+        deberá cursarla nuevamente.
+        - En aquellos casos en que el alumno interrumpa el servicio social, 
+        de manera temporal y por causa grave, deberá presentar documentación 
+        e la dependencia en la que se encontraba realizando sus actividades y 
+        solicitar al Consejo Técnico u órgano equivalente la procedencia y el 
+        aval del tiempo realizado. Si la respuesta es favorable, el alumno 
+        podrá realizar en el tiempo establecido su segunda inscripción para 
+        completarlo.
+
+  utter_reportes:
+  - text: |
+      Para el Servicio Social en la LIS de Xalapa, los reportes se 
+      entregan normalmente la primera semana completa de cada mes. En caso de no 
+      entregar un reporte en tiempo y forma, las horas de ese mes no serán 
+      tomadas en cuenta, ya que es responsabilidad del estudiante organizarse 
+      para la entrega. Se puede verificar la fecha exacta de entrega de reportes 
+      con el coordinador de Servicio Social de la LIS.
+
+
+  utter_temario:
+  - text: |
+      Puedo hablarte de los siguientes temas:
+      - definicion
+      - horas
+      - organización vinculada
+      - requisitos
+      - informes
+      - calificacion
+      - beca
+      - proceso
+      - expediente
+      - trabajo
+      - oportunidades
+      - reportes
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

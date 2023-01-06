@@ -1,0 +1,139 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hola
+    - buenos días
+    - buenas tardes
+    - bro
+    - que tal
+
+- intent: goodbye
+  examples: |
+    - adios
+    - bye
+    - me voy
+    - hasta luego
+    - hasta nunca
+    - nos vemos
+    - see you
+    - salir
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - of course
+    - correct
+    - si
+    - S
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - no lo creo
+    - no es asi
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+
+- intent: temario
+  examples: |
+    - temario
+    - qué sabes hacer?
+    - que sabes?
+    - temas
+    - ayuda
+    - ayudame
+    - help
+
+
+- intent: definicion
+  examples: |
+    - definición
+    - explicación
+    - descripción
+    - servicio
+    - servicio social
+
+- intent: horas
+  examples: |
+    - horas
+    - duración
+    - Cuantas horas debo cubrir?
+    - cuantas horas debo hacer?
+
+- intent: empresa
+  examples: |
+    - empresa
+    - organización vinculada
+    - donde puedo hacer mi servicio?
+    - características de la empresa
+
+- intent: requisitos
+  examples: |
+    - requisitos
+    - cuáles son los requisitos para cursar servicio?
+    - que se necesita para cursar servicio?
+
+- intent: informes
+  examples: |
+    - informes
+    - dudas
+    - coordinación
+    - quien es el coordinador de servicio social de ingeniería de software?
+    - LIS
+
+
+- intent: calificacion
+  examples: |
+    - entregables
+    - que documentos debo entregar?
+    - documentos
+    - acreditación
+    - calificación
+
+- intent: beca
+  examples: |
+    - beca
+    - puedo tener beca?
+    - puedo recibir beca?
+
+- intent: proceso
+  examples: |
+    - proceso
+    - cual es el proceso a seguir?
+
+- intent: expediente
+  examples: |
+    - expediente
+    - que lleva en mi expediente?
+    - que documentos tiene mi expediente?
+
+- intent: trabajo
+  examples: |
+    - trabajo
+    - trabajar
+    - puedo hacer el servicio social donde trabajo?
+    - puedo hacer el servicio social en el mismo lugar trabajo?
+
+- intent: reportes
+  examples: |
+    - reportes
+    - cuando debo entregar mis reportes?
+    - reportes mensuales
+    - entregar
+    
+
+    
